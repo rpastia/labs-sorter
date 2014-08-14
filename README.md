@@ -33,11 +33,11 @@ The JAR file contains a main class manifest so you can run it like this:
 java -jar target/sorter-${VERSION}.jar quick input.txt
 ```
 
-#### Formatting the input ####
+##### Formatting the input #####
 
 The application reads it's input from an input file named by the second parameter. Each line in this file constitutes an entry in the input array.
-The application automatically detects the type of the input data (Integer, Float or String) based on the first element of the input array (the first line in the file).
-If the first element is "1" the whole set will be parsed as Integer. If the first element is "1.0" the whole set will be parsed as Float. Elements that can't be parsed will be skipped.
+The application automatically detects the type of the input data (`Integer`, `Float` or `String`) based on the first element of the input array (the first line in the file).
+If the first element is "1" the whole set will be parsed as `Integer`. If the first element is "1.0" the whole set will be parsed as `Float`. Elements that can't be parsed will be skipped.
 
 
 ### Architecture ###
