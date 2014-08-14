@@ -33,6 +33,8 @@ The JAR file contains a main class manifest so you can run it like this:
 java -jar target/sorter-${VERSION}.jar quick input.txt
 ```
 
+Output will be sent to `STDOUT`. Other info will be sent to `STDERR`.
+
 ##### Formatting the input #####
 
 The application reads it's input from an input file named by the second parameter. Each line in this file constitutes an entry in the input array.
